@@ -1,0 +1,186 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: "Roboto Bold";
+  src: url(../fonts/Roboto-Bold.ttf);
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #CACACA;
+  background-color: #08020D;
+}
+
+h1 {
+  margin: 0;
+  font-size: 60px;
+  line-height: 90px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+h2 {
+  margin: 0;
+  font-size: 38px;
+  line-height: 57px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+@media (max-width: 415px) {
+  h1 {
+    margin: 0;
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    margin: 0;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}
+.container {
+  max-width: 1219px;
+  position: relative;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.mr-16 {
+  margin-right: 16px;
+}
+
+.mr-24 {
+  margin-right: 24px;
+}
+
+@media (max-width: 620px) {
+  .header-absolute {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .header-absolute .logo {
+    margin-bottom: 17px;
+    align-self: flex-start;
+  }
+  .header-absolute .navigation {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+    align-self: flex-start;
+  }
+  .header-absolute .search-input {
+    width: 100%;
+    align-self: flex-start;
+  }
+
+  .form input {
+    flex-grow: 1;
+  }
+}
+.header {
+  background-image: url(../images/banner.png);
+  background-position: center;
+  background-size: cover;
+}
+.header .header-absolute {
+  display: flex;
+  align-items: center;
+  padding-right: 40px;
+  position: absolute;
+  width: 100%;
+  top: 25px;
+}
+.header .header-absolute .logo {
+  margin-right: 90px;
+  display: flex;
+  align-items: center;
+}
+.header .header-absolute .logo img {
+  width: 24px;
+  height: 24px;
+}
+.header .header-absolute .navigation {
+  text-transform: uppercase;
+  flex-grow: 1;
+}
+.header .header-absolute .navigation .nav-link {
+  line-height: 16px;
+  color: #CACACA;
+  font-size: 11px;
+  text-decoration: none;
+}
+.header .header-absolute .navigation .nav-link:hover {
+  color: #fff;
+}
+.header .header-absolute .search-input {
+  min-width: 248px;
+  width: 248px;
+  min-height: 25px;
+  padding-left: 10px;
+  border-radius: 50px;
+  background-color: #3C3B3D;
+  outline: none;
+  text-transform: uppercase;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border: none;
+}
+.header .header-wrapper {
+  padding: 200px 0;
+  text-align: center;
+  color: #fff;
+}
+.header .header-wrapper .form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 570px;
+  color: #fff;
+  margin: 0 auto;
+}
+.header .header-wrapper .form input {
+  color: #fff;
+  font-size: 14px;
+  font-family: "Roboto Bold", sans-serif;
+  background-color: transparent;
+  outline: none;
+  min-height: 50px;
+  min-width: 270px;
+  padding-left: 20px;
+  margin-bottom: 1.5rem;
+  border: 2px solid #CACACA;
+  border-radius: 3px;
+}
+.header .header-wrapper .form input::placeholder {
+  color: #fff;
+}
+.header .header-wrapper .form .btn {
+  padding: 20px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  text-transform: uppercase;
+}
+.header .header-wrapper .form .btn--green {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  background-color: #34C176;
+  width: 100%;
+  border: none;
+}
+
+/*# sourceMappingURL=app.css.map */

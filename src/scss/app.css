@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto-Regular.ttf); }
+@font-face {
+  font-family: 'Roboto Bold';
+  src: url(../fonts/Roboto-Bold.ttf); }
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #CACACA;
+  background-color: #08020D; }
+
+h1 {
+  font-size: 60px;
+  line-height: 90px;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+h2 {
+  font-size: 38px;
+  line-height: 57px;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+h1 {
+  font-size: 60px;
+  line-height: 90px;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+h2 {
+  font-size: 38px;
+  line-height: 57px;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+@media (max-width: 415px) {
+  h1 {
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 700;
+    text-transform: uppercase; }
+
+  h2 {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 700;
+    text-transform: uppercase; } }
+.container {
+  max-width: 1219px;
+  margin: 0 auto;
+  padding: 0 20px; }
+
+.mr-16 {
+  margin-right: 16px; }
+
+.mr-24 {
+  margin-right: 24px; }
+
+.header-absolute {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .header-absolute .logo {
+    display: flex;
+    align-items: center; }
+    .header-absolute .logo img {
+      width: 24px;
+      height: 24px; }
