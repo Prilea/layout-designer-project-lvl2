@@ -1,0 +1,73 @@
+.artist-main {
+    .artist-heading {
+        font-size: 38px;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 700;
+        line-height: 57px;
+        margin-bottom: 48px;
+        padding-top: 100px;
+    }
+    #page-popular-track {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+       
+        .popular-track {
+            display: flex;
+            align-items: center;
+            max-width: 551px;
+            margin-right: 50px;
+            margin-bottom: 25px;
+
+            .track-img {
+                width: 55px;
+                height: 55px;
+                margin-right: 15px;
+            }
+            .track-info {
+                display: flex;
+                flex-direction: column;
+                flex-grow: 1;
+                .track-name {
+                    text-transform: uppercase;
+                    font-size: 12.8px;
+                    line-height: 19.2px;
+                    font-weight: 700;
+                    color: $color-white;
+                    margin: 0;
+                }
+                .track-author {
+                    color: #E0E0E0;
+                    font-size: 12.8px;
+                    line-height: 19.2px;
+                    margin: 0;
+                }
+            }
+            .track-time {
+                color: #E0E0E0;
+                font-size: 12.8px;
+                line-height: 19.2px;
+            }
+        }
+
+
+
+}
+}
+
+@media (max-width: 600px) {
+    .artist-main {
+        .artist-heading {
+            font-size: 18px;
+            line-height: 27px;
+        }
+        #page-popular-track {
+            grid-template-columns: 1fr;
+            .popular-track {
+                margin-right: 0;
+            }
+        }
+    }
+
+
+}

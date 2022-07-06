@@ -1,0 +1,27 @@
+#page-app {
+    padding-top: 100px;
+    margin-bottom: 100px;
+    .page-app-inner {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+       
+        .page-app-inner-left {
+            width: 50%;
+        }
+        .page-app-inner-right {
+            width: 50%;
+            text-align: center;
+        }
+       .btn--orange {
+           border-radius: 32px;
+           background-color: #95390C;
+           padding: 17px 40px;
+           margin-top: 16px;
+           border: none;
+           font-size: 13px;
+           text-transform: none;
+           color: $color-white;
+       }
+    }
+}
