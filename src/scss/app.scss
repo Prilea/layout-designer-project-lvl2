@@ -9,6 +9,15 @@
 @import 'discography.scss';
 @import 'page-similar.scss';
 
+html {
+    width: 100%;
+    overflow-x: hidden;
+}
+body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
 @media (max-width: 900px) {
     #page-news {
         .news-item {

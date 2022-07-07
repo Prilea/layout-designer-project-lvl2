@@ -540,6 +540,12 @@ h2 {
     height: 137px;
   }
 }
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 @media (max-width: 900px) {
   #page-news .news-item {
     gap: 0;
