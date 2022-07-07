@@ -4,6 +4,7 @@
     grid-template-columns: repeat(auto-fit, 250px);
     grid-column-gap: 50px;
     .discography-item {
+        width: 250px;
         margin-right: 50px;
         margin-bottom: 25px;
         .discography-item-img {
@@ -11,6 +12,7 @@
             height: 250px;
         }
         .discography-info {
+            width: 100%;
             margin: 0;
             display: flex;
             flex-direction: column;
