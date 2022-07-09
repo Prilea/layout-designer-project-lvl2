@@ -295,6 +295,7 @@ h2 {
 }
 #page-app .page-app-inner .page-app-inner-left {
   width: 50%;
+  margin-top: 0;
 }
 #page-app .page-app-inner .page-app-inner-right {
   width: 50%;
