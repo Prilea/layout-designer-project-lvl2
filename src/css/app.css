@@ -407,11 +407,11 @@ h2 {
   font-weight: 700;
   line-height: 57px;
   margin-bottom: 48px;
-  margin-top: 100px;
 }
 .artist-main #page-popular-track {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  padding-top: 100px;
 }
 .artist-main #page-popular-track .popular-track {
   display: flex;
@@ -466,6 +466,7 @@ h2 {
   display: grid;
   grid-template-columns: repeat(auto-fit, 250px);
   grid-column-gap: 50px;
+  padding-top: 100px;
 }
 #page-discography .discography-item {
   max-width: 250px;
@@ -513,7 +514,8 @@ h2 {
   display: grid;
   grid-template-columns: repeat(auto-fit, 250px);
   grid-column-gap: 50px;
-  padding-bottom: 100px;
+  padding-top: 100px;
+  margin-bottom: 100px;
 }
 #page-similar .similar-item {
   text-align: center;
