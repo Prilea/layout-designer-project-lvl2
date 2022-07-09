@@ -533,6 +533,7 @@ h2 {
   color: #fff;
   font-weight: 700;
   margin: 0;
+  text-transform: capitalize;
 }
 #page-similar .similar-item .similar-info .similar-name-fans {
   font-size: 16px;
