@@ -67,6 +67,11 @@ h2 {
     text-transform: uppercase;
     margin-bottom: 50px;
 }
+@media (max-width: 620px) {
+    .heading {
+        line-height: 27px;
+    }
+}
 @mixin heading {
     font-family: 'Roboto-Bold', sans-serif;
     font-size: 38px;

@@ -66,6 +66,11 @@ h2 {
   margin-bottom: 50px;
 }
 
+@media (max-width: 620px) {
+  .heading {
+    line-height: 27px;
+  }
+}
 #page-pricing {
   padding-top: 100px;
   text-align: center;
