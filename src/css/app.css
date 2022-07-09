@@ -37,7 +37,6 @@ h2 {
 
 .container {
   max-width: 1240px;
-  position: relative;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -463,11 +462,13 @@ h2 {
   grid-column-gap: 50px;
 }
 #page-discography .discography-item {
-  width: 250px;
+  max-width: 250px;
+  width: 100%;
   margin-right: 50px;
   margin-bottom: 25px;
 }
 #page-discography .discography-item .discography-item-img {
+  width: 100%;
   width: 250px;
   height: 250px;
 }
@@ -543,11 +544,6 @@ h2 {
     height: 137px;
   }
 }
-html {
-  width: 100%;
-  overflow-x: hidden;
-}
-
 body {
   width: 100%;
   max-width: 100%;
@@ -672,39 +668,41 @@ body {
     color: #fff;
   }
 }
-.header .header-absolute {
+.header .wrapper-absolute {
+  position: relative;
+}
+.header .wrapper-absolute .header-absolute {
   display: flex;
   align-items: center;
-  padding-right: 40px;
   position: absolute;
   width: 100%;
   top: 25px;
 }
-.header .header-absolute .logo {
+.header .wrapper-absolute .header-absolute .logo {
   margin-right: 90px;
   display: flex;
   align-items: center;
   text-transform: uppercase;
   font-size: 11px;
 }
-.header .header-absolute .logo img {
+.header .wrapper-absolute .header-absolute .logo img {
   width: 24px;
   height: 24px;
 }
-.header .header-absolute .navigation {
+.header .wrapper-absolute .header-absolute .navigation {
   text-transform: uppercase;
   flex-grow: 1;
 }
-.header .header-absolute .navigation .nav-link {
+.header .wrapper-absolute .header-absolute .navigation .nav-link {
   line-height: 16px;
   color: #CACACA;
   font-size: 11px;
   text-decoration: none;
 }
-.header .header-absolute .navigation .nav-link:hover {
+.header .wrapper-absolute .header-absolute .navigation .nav-link:hover {
   color: #fff;
 }
-.header .header-absolute .search-input {
+.header .wrapper-absolute .header-absolute .search-input {
   min-width: 248px;
   width: 248px;
   min-height: 25px;
@@ -717,7 +715,7 @@ body {
   border: none;
 }
 @media (max-width: 620px) {
-  .header .header-absolute .search-input {
+  .header .wrapper-absolute .header-absolute .search-input {
     width: 100%;
   }
 }

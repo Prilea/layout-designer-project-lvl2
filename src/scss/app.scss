@@ -9,10 +9,10 @@
 @import 'discography.scss';
 @import 'page-similar.scss';
 
-html {
-    width: 100%;
-    overflow-x: hidden;
-}
+// html {
+//     width: 100%;
+//     overflow-x: hidden;
+// }
 body {
     width: 100%;
     max-width: 100%;
@@ -163,11 +163,11 @@ body {
 }
 .header {
     
-
-    .header-absolute {
+.wrapper-absolute {
+    position: relative;
+        .header-absolute {
         display: flex;
         align-items: center;
-        padding-right: 40px;
         position: absolute;
         width: 100%;
         top: 25px;
@@ -216,6 +216,8 @@ body {
         }
            
     }
+}
+
     .header-wrapper {
         padding: 200px 0;
         text-align: center;
