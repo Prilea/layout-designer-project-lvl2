@@ -63,6 +63,11 @@ body {
                             color: $color-white;
                         }
                     } 
+                    @media (max-width: 815px) {
+                        .nav-link {
+                            line-height: 13px;
+                        }
+                    }
                     }
                 }
 
@@ -139,7 +144,7 @@ body {
         background-position: center;
         background-size: cover;        
     }
-@media (max-width: 900px) {
+    @media (max-width: 900px) {
     #page-news {
         .news-item {
             gap: 0;
@@ -185,8 +190,10 @@ body {
 
 
             }
-        }        
+        }    
+            
 }
+
 
 @media (max-width: 815px) {
     #page-app {
@@ -235,10 +242,10 @@ body {
                 margin: 17px 0 10px 0;
                 li {
                     flex-direction: column;
-                    .nav-link {
-                        margin: 0 0 3px 0;
-                        line-height: 13px;
-                    }
+                        .nav-link {
+                            margin: 0 0 3px 0;
+                            line-height: 13px;
+                        }
                 }
             }
             font-weight: 700;

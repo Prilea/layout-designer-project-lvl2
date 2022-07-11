@@ -608,6 +608,11 @@ body {
 .header .wrapper-absolute .header-absolute .navigation ul li .nav-link:hover {
   color: #fff;
 }
+@media (max-width: 815px) {
+  .header .wrapper-absolute .header-absolute .navigation ul li .nav-link {
+    line-height: 13px;
+  }
+}
 .header .wrapper-absolute .header-absolute .search-input {
   min-width: 248px;
   width: 248px;
@@ -762,6 +767,7 @@ body {
   }
   .header-absolute .navigation ul li .nav-link {
     margin: 0 0 3px 0;
+    line-height: 13px;
   }
   .header-absolute .search-box {
     width: 100%;
