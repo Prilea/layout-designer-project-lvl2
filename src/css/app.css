@@ -580,6 +580,7 @@ body {
   align-items: center;
   text-transform: uppercase;
   font-size: 11px;
+  height: 25px;
 }
 .header .wrapper-absolute .header-absolute .logo img {
   width: 24px;
@@ -594,6 +595,7 @@ body {
   color: #CACACA;
   font-size: 11px;
   text-decoration: none;
+  width: fit-content;
 }
 .header .wrapper-absolute .header-absolute .navigation .nav-link:hover {
   color: #fff;
