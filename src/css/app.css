@@ -739,7 +739,7 @@ body {
   color: #fff;
 }
 .header .header-wrapper h2 {
-  padding-bottom: 31px;
+  margin-bottom: 31px;
 }
 .header .header-wrapper .form {
   display: flex;
