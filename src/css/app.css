@@ -754,8 +754,14 @@ body {
     flex-direction: column;
     align-self: flex-start;
   }
+  .header-absolute .navigation ul {
+    margin: 17px 0 10px 0;
+  }
   .header-absolute .navigation ul li {
     flex-direction: column;
+  }
+  .header-absolute .navigation ul li .nav-link {
+    margin: 0 0 3px 0;
   }
   .header-absolute .search-box {
     width: 100%;

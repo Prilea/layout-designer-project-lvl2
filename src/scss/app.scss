@@ -232,8 +232,12 @@ body {
         }
         .navigation {
             ul {
+                margin: 17px 0 10px 0;
                 li {
                     flex-direction: column;
+                    .nav-link {
+                        margin: 0 0 3px 0;
+                    }
                 }
             }
             font-weight: 700;
