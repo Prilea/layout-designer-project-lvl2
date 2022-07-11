@@ -45,16 +45,27 @@ body {
             .navigation {
                 text-transform: uppercase;
                 flex-grow: 1;
-                .nav-link {
-                    line-height: 16px; 
-                    color: $color-dark-gray;
-                    font-size: 11px;
-                    text-decoration: none;
-                    width: fit-content;
-                    &:hover {
-                        color: $color-white;
+                ul {
+                    list-style: none;
+                    padding: 0;
+                    li {
+                        display: flex;
+                        
+                        margin-bottom: 3px;
+                        .nav-link {
+                        line-height: 16px; 
+                        color: $color-dark-gray;
+                        font-size: 11px;
+                        text-decoration: none;
+                        width: fit-content;
+                      
+                        &:hover {
+                            color: $color-white;
+                        }
+                    } 
                     }
                 }
+
                 
             }
             .search-input {
@@ -69,7 +80,7 @@ body {
               filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
               border: none;
             }
-            @media (max-width:620px) {
+            @media (max-width: 815px) {
                 .search-input {
                     width: 100%;
                   }
@@ -177,7 +188,7 @@ body {
         }        
 }
 
-@media (max-width: 720px) {
+@media (max-width: 815px) {
     #page-app {
         .page-app-inner {
 
@@ -205,7 +216,7 @@ body {
 }
 
 
-@media (max-width: 620px) {
+@media (max-width: 815px) {
     .heading {
         font-size: 18px!important;
     }
@@ -215,15 +226,20 @@ body {
         align-items: flex-start;
         .logo {
             font-weight: 700;
-            margin-bottom: 17px;
+           
             align-self: flex-start;
         
         }
         .navigation {
+            ul {
+                li {
+                    flex-direction: column;
+                }
+            }
             font-weight: 700;
             display: flex;
             flex-direction: column;
-            margin-bottom: 18px;
+          
             align-self: flex-start;
         }
         .search-box {
