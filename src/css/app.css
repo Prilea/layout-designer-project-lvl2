@@ -692,14 +692,15 @@ body {
   #page-news .news-item .news-img-left {
     flex: 1 1 100%;
     order: -1;
+    margin-bottom: 50px;
   }
   #page-news .news-item .news-img-right {
     flex: 1 1 100%;
     order: -1;
+    margin-bottom: 50px;
   }
   #page-news .news-item .news-img {
     flex: 1 1 100%;
-    margin-bottom: 50px;
     order: -1;
   }
   #page-news .news-item .news-wrapper {
