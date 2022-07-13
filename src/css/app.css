@@ -162,7 +162,7 @@ h2 {
   font-size: 13px;
   line-height: 19px;
   color: #fff;
-  padding-bottom: 64px;
+  margin-bottom: 64px;
 }
 @media (max-width: 620px) {
   #page-pricing .pricing-item h3 {
@@ -177,7 +177,7 @@ h2 {
 #page-pricing .footer-text {
   color: #fff;
   line-height: 24px;
-  padding-top: 24px;
+  margin: 40px 0 0 0;
 }
 
 #page-news {
