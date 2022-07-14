@@ -11,6 +11,11 @@
         color: $color-white;
         margin-top: 50px;
     }
+    @media (max-width: 620px) {
+        .artist-main-heading {
+            margin-top: 30px;
+        } 
+    }
     .artist-fans-number {
         margin: 16px 0 48px 0;
         

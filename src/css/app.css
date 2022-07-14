@@ -213,9 +213,13 @@ h2 {
 }
 #page-news .news-item .news-img-left {
   flex: 1 1 50%;
+  height: fit-content;
+  margin: 0;
 }
 #page-news .news-item .news-img-right {
   flex: 1 1 50%;
+  height: 100%;
+  margin: 0;
 }
 #page-news .news-item .news-wrapper-right {
   grid-column: 3/5;
@@ -241,7 +245,7 @@ h2 {
 }
 @media (max-width: 620px) {
   #page-news .news-item .news-wrapper .news-body h3 {
-    margin: 0 0 16px 0;
+    margin: 50px 0 16px 0;
   }
 }
 #page-news .news-item .news-wrapper .news-footer .news-author {
@@ -374,6 +378,11 @@ h2 {
 .artist-header .artist-main-heading {
   color: #fff;
   margin-top: 50px;
+}
+@media (max-width: 620px) {
+  .artist-header .artist-main-heading {
+    margin-top: 30px;
+  }
 }
 .artist-header .artist-fans-number {
   margin: 16px 0 48px 0;
@@ -692,12 +701,10 @@ body {
   #page-news .news-item .news-img-left {
     flex: 1 1 100%;
     order: -1;
-    margin-bottom: 50px;
   }
   #page-news .news-item .news-img-right {
     flex: 1 1 100%;
     order: -1;
-    margin-bottom: 50px;
   }
   #page-news .news-item .news-img {
     flex: 1 1 100%;
