@@ -401,7 +401,7 @@ h2 {
   background-color: #95390C;
 }
 
-.artist-main .artist-heading {
+.artist-heading {
   grid-column: 1/-1;
   font-size: 38px;
   color: #fff;
@@ -410,29 +410,30 @@ h2 {
   line-height: 57px;
   margin-bottom: 48px;
 }
-.artist-main .tracks-wrapper {
+
+.tracks-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding-top: 100px;
 }
-.artist-main .tracks-wrapper .popular-track {
+.tracks-wrapper .popular-track {
   display: flex;
   align-items: center;
   max-width: 551px;
   margin-right: 50px;
   margin-bottom: 25px;
 }
-.artist-main .tracks-wrapper .popular-track .track-img {
+.tracks-wrapper .popular-track .track-img {
   width: 55px;
   height: 55px;
   margin-right: 15px;
 }
-.artist-main .tracks-wrapper .popular-track .track-info {
+.tracks-wrapper .popular-track .track-info {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
 }
-.artist-main .tracks-wrapper .popular-track .track-info .track-name {
+.tracks-wrapper .popular-track .track-info .track-name {
   text-transform: uppercase;
   font-size: 12.8px;
   line-height: 19.2px;
@@ -440,13 +441,13 @@ h2 {
   color: #fff;
   margin: 0;
 }
-.artist-main .tracks-wrapper .popular-track .track-info .track-author {
+.tracks-wrapper .popular-track .track-info .track-author {
   color: #E0E0E0;
   font-size: 12.8px;
   line-height: 19.2px;
   margin: 0;
 }
-.artist-main .tracks-wrapper .popular-track .track-time {
+.tracks-wrapper .popular-track .track-time {
   color: #E0E0E0;
   font-size: 12.8px;
   line-height: 19.2px;
@@ -464,7 +465,7 @@ h2 {
     margin-right: 0;
   }
 }
-#page-discography {
+#page-discography .discography {
   display: grid;
   grid-template-columns: repeat(auto-fit, 250px);
   grid-column-gap: 50px;
