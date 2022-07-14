@@ -373,6 +373,7 @@ h2 {
 }
 .artist-header .artist-main-heading {
   color: #fff;
+  margin-top: 50px;
 }
 .artist-header .artist-fans-number {
   margin: 16px 0 48px 0;
