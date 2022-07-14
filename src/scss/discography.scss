@@ -1,14 +1,17 @@
 #page-discography {
-    .discography {
-            display: grid;
-    grid-template-columns: repeat(auto-fit, 250px);
-    grid-column-gap: 50px;
-    padding-top: 100px;
+    .container {
+        .discography {
+                display: grid;
+        grid-template-columns: repeat(auto-fit, 250px);
+        grid-column-gap: 50px;
+        padding-top: 100px;        
+    }
+
     }
 
     .discography-item {
         max-width: 250px;
-        width: 100%;
+        width: fit-content;
         margin-right: 50px;
         margin-bottom: 25px;
         .discography-item-img {
@@ -41,8 +44,13 @@
 }
 @media (max-width: 600px) {
     #page-discography {
-        grid-template-columns: 1fr 1fr;
-        grid-column-gap: 0;
+        .container {
+            .discography {
+            grid-template-columns: 1fr 1fr;
+            grid-column-gap: 0;                
+            }
+        }
+
         .discography-item {
             
             .discography-item-img {

@@ -384,7 +384,7 @@ h2 {
 }
 @media (max-width: 620px) {
   .artist-header .artist-main-heading {
-    margin-top: 30px;
+    margin-top: 28px;
   }
 }
 .artist-header .artist-fans-number {
@@ -476,7 +476,7 @@ h2 {
     margin-right: 0;
   }
 }
-#page-discography .discography {
+#page-discography .container .discography {
   display: grid;
   grid-template-columns: repeat(auto-fit, 250px);
   grid-column-gap: 50px;
@@ -484,7 +484,7 @@ h2 {
 }
 #page-discography .discography-item {
   max-width: 250px;
-  width: 100%;
+  width: fit-content;
   margin-right: 50px;
   margin-bottom: 25px;
 }
@@ -515,7 +515,7 @@ h2 {
 }
 
 @media (max-width: 600px) {
-  #page-discography {
+  #page-discography .container .discography {
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 0;
   }
@@ -536,7 +536,7 @@ h2 {
   margin-bottom: 25px;
 }
 #page-similar .similar-item .similar-img {
-  margin-bottom: 17px;
+  margin-bottom: 14px;
 }
 #page-similar .similar-item .similar-info {
   display: flex;
