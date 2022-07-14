@@ -303,6 +303,9 @@ h2 {
   width: 50%;
   margin-top: 0;
 }
+#page-app .page-app-inner .page-app-inner-left .inner-left-text {
+  margin-top: 0;
+}
 #page-app .page-app-inner .page-app-inner-right {
   width: 50%;
   text-align: center;
@@ -521,7 +524,7 @@ h2 {
     height: 137px;
   }
 }
-#page-similar {
+#page-similar .container {
   display: grid;
   grid-template-columns: repeat(auto-fit, 250px);
   grid-column-gap: 50px;
@@ -556,7 +559,7 @@ h2 {
 }
 
 @media (max-width: 600px) {
-  #page-similar {
+  #page-similar .container {
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 0;
   }
