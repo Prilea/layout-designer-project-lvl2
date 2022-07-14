@@ -410,29 +410,29 @@ h2 {
   line-height: 57px;
   margin-bottom: 48px;
 }
-.artist-main #page-popular-track {
+.artist-main .tracks-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding-top: 100px;
 }
-.artist-main #page-popular-track .popular-track {
+.artist-main .tracks-wrapper .popular-track {
   display: flex;
   align-items: center;
   max-width: 551px;
   margin-right: 50px;
   margin-bottom: 25px;
 }
-.artist-main #page-popular-track .popular-track .track-img {
+.artist-main .tracks-wrapper .popular-track .track-img {
   width: 55px;
   height: 55px;
   margin-right: 15px;
 }
-.artist-main #page-popular-track .popular-track .track-info {
+.artist-main .tracks-wrapper .popular-track .track-info {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
 }
-.artist-main #page-popular-track .popular-track .track-info .track-name {
+.artist-main .tracks-wrapper .popular-track .track-info .track-name {
   text-transform: uppercase;
   font-size: 12.8px;
   line-height: 19.2px;
@@ -440,13 +440,13 @@ h2 {
   color: #fff;
   margin: 0;
 }
-.artist-main #page-popular-track .popular-track .track-info .track-author {
+.artist-main .tracks-wrapper .popular-track .track-info .track-author {
   color: #E0E0E0;
   font-size: 12.8px;
   line-height: 19.2px;
   margin: 0;
 }
-.artist-main #page-popular-track .popular-track .track-time {
+.artist-main .tracks-wrapper .popular-track .track-time {
   color: #E0E0E0;
   font-size: 12.8px;
   line-height: 19.2px;
