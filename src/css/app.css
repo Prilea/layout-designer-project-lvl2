@@ -596,9 +596,9 @@ body {
 .header .wrapper-absolute .header-absolute .navigation ul {
   list-style: none;
   padding: 0;
+  display: flex;
 }
 .header .wrapper-absolute .header-absolute .navigation ul li {
-  display: flex;
   margin-bottom: 3px;
 }
 .header .wrapper-absolute .header-absolute .navigation ul li .nav-link {
@@ -765,10 +765,9 @@ body {
     align-self: flex-start;
   }
   .header-absolute .navigation ul {
-    margin: 17px 0 10px 0;
-  }
-  .header-absolute .navigation ul li {
     flex-direction: column;
+    margin: 17px 0 10px 0;
+    line-height: 13px;
   }
   .header-absolute .navigation ul li .nav-link {
     margin: 0 0 3px 0;

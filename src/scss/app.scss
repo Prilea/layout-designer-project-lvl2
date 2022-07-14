@@ -48,8 +48,9 @@ body {
                 ul {
                     list-style: none;
                     padding: 0;
+                    display: flex;
                     li {
-                        display: flex;
+                        // display: flex;
                         
                         margin-bottom: 3px;
                         .nav-link {
@@ -241,9 +242,12 @@ body {
         }
         .navigation {
             ul {
+                flex-direction: column;
                 margin: 17px 0 10px 0;
+                // margin: 0 0 3px 0;
+                line-height: 13px;
                 li {
-                    flex-direction: column;
+                    // flex-direction: column;
                         .nav-link {
                             margin: 0 0 3px 0;
                             line-height: 13px;
