@@ -244,10 +244,12 @@ body {
             ul {
                 flex-direction: column;
                 margin: 17px 0 10px 0;
+             
                 // margin: 0 0 3px 0;
                 line-height: 13px;
                 li {
-                    // flex-direction: column;
+                    display: flex;
+                    flex-direction: column;
                         .nav-link {
                             margin: 0 0 3px 0;
                             line-height: 13px;

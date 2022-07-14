@@ -373,11 +373,9 @@ h2 {
 }
 .artist-header .artist-main-heading {
   color: #fff;
-  padding-top: 30px;
 }
 .artist-header .artist-fans-number {
-  padding: 16px 0 48px 0;
-  margin: 0;
+  margin: 16px 0 48px 0;
 }
 .artist-header .artist-btn {
   display: inline-flex;
@@ -768,6 +766,10 @@ body {
     flex-direction: column;
     margin: 17px 0 10px 0;
     line-height: 13px;
+  }
+  .header-absolute .navigation ul li {
+    display: flex;
+    flex-direction: column;
   }
   .header-absolute .navigation ul li .nav-link {
     margin: 0 0 3px 0;
