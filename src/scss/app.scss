@@ -195,6 +195,30 @@ body {
         }    
             
 }
+.container 
+    .artist-heading {
+    grid-column: 1 / -1;
+    font-size: 38px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 57px;
+    margin-bottom: 48px;
+    // margin-top: 100px;
+}
+@media (max-width: 600px) {
+    .container {
+           .artist-heading  {
+         
+            font-size: 18px;
+            line-height: 27px;
+        
+    } 
+    }
+
+
+
+}
 
 
 @media (max-width: 815px) {
@@ -229,7 +253,9 @@ body {
     .heading {
         font-size: 18px!important;
         line-height: 27px;
+
     }
+
     .header-absolute {
         display: flex;
         flex-direction: column;

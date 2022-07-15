@@ -1,14 +1,16 @@
 // .artist-main {
-    .artist-heading {
-        grid-column: 1 / -1;
-        font-size: 38px;
-        color: #fff;
-        text-transform: uppercase;
-        font-weight: 700;
-        line-height: 57px;
-        margin-bottom: 48px;
-        // margin-top: 100px;
-    }
+   #page-popular-track {
+    .container {
+    //     .artist-heading {
+    //     grid-column: 1 / -1;
+    //     font-size: 38px;
+    //     color: #fff;
+    //     text-transform: uppercase;
+    //     font-weight: 700;
+    //     line-height: 57px;
+    //     margin-bottom: 48px;
+    //     // margin-top: 100px;
+    // }
     .tracks-wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -37,12 +39,14 @@
                     font-weight: 700;
                     color: $color-white;
                     margin: 0;
+                    width: fit-content;
                 }
                 .track-author {
                     color: #E0E0E0;
                     font-size: 12.8px;
                     line-height: 19.2px;
                     margin: 0;
+                    width: fit-content;
                 }
             }
             .track-time {
@@ -54,7 +58,10 @@
 
 
 
-}
+        }
+    }
+    
+   } 
 // }
 
 @media (max-width: 600px) {
@@ -64,10 +71,16 @@
             line-height: 27px;
         }
         #page-popular-track {
-            grid-template-columns: 1fr;
+            .container {
+                .tracks-wrapper {
+                   grid-template-columns: 1fr;   
+                }
+            
+          
             .popular-track {
                 margin-right: 0;
             }
+        }
         }
     }
 
