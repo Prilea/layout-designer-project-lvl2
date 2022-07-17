@@ -28,6 +28,7 @@
             color: $color-white;
             font-size: 18px;
             text-transform: uppercase;
+            margin-bottom: 40px;
             h4 {
                 margin: 0 0 15px 0;
             }
@@ -67,6 +68,9 @@
         }
 
     }
+        
+    }
+
     .footer-wrapper-footer {
         padding: 2rem 0;
         display: flex;
@@ -77,8 +81,13 @@
             text-decoration: none;
             font-size: 16px;
             text-transform: none;
-            width: 100%;
+            width: fit-content;
         }
-    }          
+    }  
+    @media (max-width: 620px) {
+        .footer-wrapper-footer {
+            .footer-link {
+                width: 100%;
+            }
+        }  
     }
-
