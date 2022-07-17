@@ -332,6 +332,9 @@ h2 {
 .footer {
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 }
+.footer hr {
+  margin: 0;
+}
 .footer .footer-wrapper-header {
   padding: 3rem 0;
   display: grid;
@@ -341,7 +344,7 @@ h2 {
 }
 .footer .footer-wrapper-header hr {
   position: absolute;
-  margin: 0;
+  margin: 0 !important;
 }
 .footer .footer-wrapper-header .footer-h4 {
   display: flex;
