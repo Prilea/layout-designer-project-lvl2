@@ -307,6 +307,9 @@ h2 {
   width: 50%;
   margin-top: 0;
 }
+#page-app .page-app-inner .page-app-inner-left .inner-left-text {
+  margin-top: 5px;
+}
 #page-app .page-app-inner .page-app-inner-right {
   width: 50%;
   text-align: center;
@@ -344,6 +347,7 @@ h2 {
   font-size: 18px;
   text-transform: uppercase;
   margin-bottom: 40px;
+  margin-top: 14px;
 }
 .footer .footer-wrapper-header .footer-h4 h4 {
   margin: 0 0 15px 0;
