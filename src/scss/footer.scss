@@ -7,7 +7,7 @@
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
         grid-template-rows: repeat(1fr);
-        grid-column-gap: 20px;
+     
         // &::after {
         //     content: '';
         //     width: 100%;
@@ -30,6 +30,15 @@
             h4 {
                 margin-bottom: 15px;
             }
+            ul {
+                margin: 0;
+                padding: 0;
+                li {
+                    list-style: none;
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
             .footer-link {
                 color: $color-gray;
                 font-weight: 400;
@@ -37,6 +46,8 @@
                 text-decoration: none;
                 font-size: 16px;
                 text-transform: none;
+                margin: 0;
+                width: fit-content;
             }      
             .describe-socials {
                 display: flex;
@@ -55,6 +66,7 @@
             text-decoration: none;
             font-size: 16px;
             text-transform: none;
+            width: fit-content;
         }
     }          
     }
