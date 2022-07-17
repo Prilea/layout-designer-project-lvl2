@@ -407,6 +407,9 @@ h2 {
 }
 
 @media (max-width: 620px) {
+  .footer-wrapper-footer {
+    padding: 2.5rem 0 3rem;
+  }
   .footer-wrapper-footer .footer-link {
     width: 100%;
   }
