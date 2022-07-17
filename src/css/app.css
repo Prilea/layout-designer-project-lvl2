@@ -66,7 +66,7 @@ h2 {
   color: #fff;
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 50px;
+  margin-bottom: 48px;
 }
 
 @media (max-width: 620px) {
@@ -124,7 +124,7 @@ h2 {
   border-radius: 1rem;
 }
 #page-pricing .pricing-item h3 {
-  margin-bottom: 200px;
+  margin-bottom: 198px;
   line-height: 36px;
   text-transform: uppercase;
   color: #fff;
@@ -308,7 +308,7 @@ h2 {
   margin-top: 0;
 }
 #page-app .page-app-inner .page-app-inner-left .inner-left-text {
-  margin-top: 18px;
+  margin-top: 10px;
 }
 #page-app .page-app-inner .page-app-inner-right {
   width: 50%;
@@ -333,6 +333,7 @@ h2 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
   grid-template-rows: repeat(1fr);
+  grid-column-gap: 40px;
 }
 .footer .footer-wrapper-header hr {
   position: absolute;
@@ -365,7 +366,17 @@ h2 {
   text-decoration: none;
   font-size: 16px;
   text-transform: none;
-  margin: 0;
+  width: fit-content;
+  margin: 1px 0 1px;
+}
+.footer .footer-wrapper-header .footer-h4 .address {
+  margin: 1px 0 1px;
+  color: #E0E0E0;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration: none;
+  font-size: 16px;
+  text-transform: none;
   width: fit-content;
 }
 .footer .footer-wrapper-header .footer-h4 .describe-socials {
