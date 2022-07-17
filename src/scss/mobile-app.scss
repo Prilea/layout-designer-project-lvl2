@@ -10,7 +10,12 @@
             width: 50%;
             margin-top: 0;
             .inner-left-text {
-                margin-top: 20px;
+                margin-top: 10px;
+            }
+            @media (max-width: 620px) {
+                .inner-left-text {
+                    margin-top: 18px;
+                }
             }
         }
         .page-app-inner-right {

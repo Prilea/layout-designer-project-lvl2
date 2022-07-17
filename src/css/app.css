@@ -308,7 +308,12 @@ h2 {
   margin-top: 0;
 }
 #page-app .page-app-inner .page-app-inner-left .inner-left-text {
-  margin-top: 20px;
+  margin-top: 10px;
+}
+@media (max-width: 620px) {
+  #page-app .page-app-inner .page-app-inner-left .inner-left-text {
+    margin-top: 18px;
+  }
 }
 #page-app .page-app-inner .page-app-inner-right {
   width: 50%;
@@ -347,6 +352,7 @@ h2 {
   font-size: 18px;
   text-transform: uppercase;
   margin-top: 14px;
+  margin-bottom: 24px;
 }
 .footer .footer-wrapper-header .footer-h4 h4 {
   margin: 14px 0 15px 0;
