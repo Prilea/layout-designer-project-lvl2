@@ -354,7 +354,6 @@ h2 {
   color: #fff;
   font-size: 18px;
   text-transform: uppercase;
-  margin-bottom: 24px;
 }
 .footer .footer-wrapper-header .footer-h4 h4 {
   margin: 14px 0 15px 0;
@@ -376,7 +375,7 @@ h2 {
   font-size: 16px;
   text-transform: none;
   width: fit-content;
-  margin: 1px 0 1px;
+  margin: 1px 0 2px;
 }
 .footer .footer-wrapper-header .footer-h4 .address {
   margin: 1px 0 1px;
@@ -393,7 +392,7 @@ h2 {
 }
 
 .footer-wrapper-footer {
-  padding: 2rem 0;
+  padding: 2rem 0 3rem;
   display: flex;
 }
 .footer-wrapper-footer .footer-link {
