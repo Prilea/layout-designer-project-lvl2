@@ -318,7 +318,6 @@ h2 {
   border-radius: 32px;
   background-color: #95390C;
   padding: 17px 40px;
-  margin-top: 16px;
   border: none;
   font-size: 13px;
   text-transform: none;
@@ -337,6 +336,7 @@ h2 {
 }
 .footer .footer-wrapper-header hr {
   position: absolute;
+  margin: 0;
 }
 .footer .footer-wrapper-header .footer-h4 {
   display: flex;
@@ -348,7 +348,7 @@ h2 {
   text-transform: uppercase;
 }
 .footer .footer-wrapper-header .footer-h4 h4 {
-  margin-bottom: 15px;
+  margin: 0 0 15px 0;
 }
 .footer .footer-wrapper-header .footer-h4 ul {
   margin: 0;
@@ -393,7 +393,7 @@ h2 {
   text-decoration: none;
   font-size: 16px;
   text-transform: none;
-  width: fit-content;
+  width: 100%;
 }
 
 .artist-header {
