@@ -279,9 +279,6 @@ h2 {
   grid-column: 1/4;
   grid-row: 1/2;
 }
-#page-news .news-item .body-reverse h3 {
-  margin-top: 52px;
-}
 #page-news .news-item .footer-reverse {
   margin-top: -8px;
   grid-column: 1/4;
@@ -306,6 +303,9 @@ h2 {
   }
   #page-news .news-column .news-item a {
     font-size: 13px;
+  }
+  #page-news .news-column .news-item .body-reverse h3 {
+    margin-top: 52px;
   }
 }
 @media (max-width: 750px) {

@@ -104,9 +104,7 @@
             .body-reverse {
                 grid-column: 1 / 4;
                 grid-row: 1 / 2;
-                h3 {
-                    margin-top: 52px;
-                }
+
             }
             .footer-reverse {
                 margin-top: -8px;
@@ -169,7 +167,12 @@
                         } 
                         a {
                             font-size: 13px;
-                        }                   
+                        }  
+                        .body-reverse {
+                            h3 {
+                                margin-top: 52px;
+                            }
+                        }                 
                     // }
     
     
