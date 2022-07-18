@@ -14,7 +14,7 @@
         display: grid;
         grid-template-columns: repeat(6, 1fr);
         grid-template-rows: 1fr 1fr;
-        grid-column-gap: 35px;
+        grid-column-gap: 50px;
         .news-img {
             grid-column: 1 / 4;
             grid-row: 1 / -1;
@@ -91,7 +91,7 @@
                     width: fit-content;
                     text-decoration: none;
                     color: $color-white;
-                    padding: 16px 31px;
+                    padding: 16px 30px;
                     display: block;
                     font-size: 12px;
                     @include btn;

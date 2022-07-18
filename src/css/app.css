@@ -208,7 +208,7 @@ h2 {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: 1fr 1fr;
-  grid-column-gap: 35px;
+  grid-column-gap: 50px;
 }
 #page-news .news-item .news-img {
   grid-column: 1/4;
@@ -262,7 +262,7 @@ h2 {
   width: fit-content;
   text-decoration: none;
   color: #fff;
-  padding: 16px 31px;
+  padding: 16px 30px;
   display: block;
   font-size: 12px;
   border-radius: 5px;
