@@ -389,6 +389,9 @@ h2 {
 .footer .footer-wrapper-header .footer-h2 h2 {
   margin: 14px 0 15px 0;
   font-size: 18px;
+  line-height: 27px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 .footer .footer-wrapper-header .footer-h2 ul {
   margin: 0;
