@@ -145,56 +145,7 @@ body {
         background-position: center;
         background-size: cover;        
     }
-    @media (max-width: 900px) {
-    #page-news {
-        .news-item {
-            gap: 0;
-            flex-wrap: wrap;
-            .news-img-left {
-                flex: 1 1 100%;
-                order: -1;
-                
-            }
-            .news-img-right {
-                flex: 1 1 100%;
-                order: -1;
-               
-            }
-            .news-img {
-                flex: 1 1 100%;
-                order: -1;
-            }
-            .news-wrapper {
-                margin-left: 0 !important;
-                .news-body {
-                    h3 {
-                        font-size: 16px;
-                        line-height: 24px;
-                    }
-                    p {
-                        font-size: 16px;
-                        line-height: 24px;
-                    }
-                }
-                .news-footer {
-                    .news-author {
-                        
-                            p {
-                                font-size: 13px; 
-                            }
-                           
-                        }                    
-                    } 
-                    a {
-                        font-size: 13px;
-                    }                   
-                }
-
-
-            }
-        }    
-            
-}
+    
 .container 
     .artist-heading {
     grid-column: 1 / -1;
@@ -236,7 +187,7 @@ body {
             }
            .btn--orange {
                border-radius: 32px;
-               padding: 17px 40px;
+               padding: 16px 40px;
                margin-top: 16px;
                display: block;
                border: none;
