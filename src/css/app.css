@@ -203,7 +203,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  gap: 58px;
+  gap: 60px;
 }
 #page-news .news-item {
   display: grid;
