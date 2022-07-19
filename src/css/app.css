@@ -375,7 +375,7 @@ h2 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
   grid-template-rows: repeat(1fr);
-  grid-column-gap: 40px;
+  grid-column-gap: 38px;
 }
 .footer .footer-wrapper-header hr {
   position: absolute;
