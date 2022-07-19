@@ -420,10 +420,8 @@ h2 {
   font-size: 16px;
   text-transform: none;
   width: fit-content;
-  margin: -2px 0 0 0;
 }
 .footer .footer-wrapper-header .footer-h2 .address {
-  margin: 1px 0 1px;
   margin: 0;
   color: #E0E0E0;
   font-weight: 400;
@@ -432,7 +430,6 @@ h2 {
   font-size: 16px;
   text-transform: none;
   width: 100%;
-  margin: -2px 0 0 0;
 }
 .footer .footer-wrapper-header .footer-h2 .describe-socials {
   display: flex;
