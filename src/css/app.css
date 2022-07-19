@@ -417,6 +417,8 @@ h2 {
   width: fit-content;
 }
 .footer .footer-wrapper-header .footer-h2 .address {
+  margin: 1px 0 1px;
+  margin: 0;
   color: #E0E0E0;
   font-weight: 400;
   line-height: 24px;
