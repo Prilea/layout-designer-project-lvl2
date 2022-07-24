@@ -448,6 +448,9 @@ h2 {
   text-transform: none;
   width: fit-content;
 }
+.footer-wrapper-footer .lh {
+  line-height: 18px;
+}
 
 @media (max-width: 620px) {
   .footer-wrapper-footer {

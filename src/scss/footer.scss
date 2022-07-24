@@ -95,6 +95,9 @@
             text-transform: none;
             width: fit-content;
         }
+        .lh {
+            line-height: 18px;
+        }
     }  
     @media (max-width: 620px) {
         .footer-wrapper-footer {
