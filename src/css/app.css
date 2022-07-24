@@ -422,7 +422,7 @@ h2 {
   font-size: 16px;
   text-transform: none;
   width: fit-content;
-  margin: 1px 0 2px 0;
+  margin: -5px 0 2px 0;
 }
 .footer .footer-wrapper-header .footer-h2 .address {
   margin: 0;
