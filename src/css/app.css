@@ -401,6 +401,9 @@ h2 {
   line-height: 24px;
   height: 100%;
 }
+.footer .footer-wrapper-header .footer-h2 .describe-socials .social-icon img {
+  margin: 2px 0 2px 0;
+}
 .footer .footer-wrapper-header .footer-h2 h2 {
   margin: 13px 0 18px 0;
   font-size: 18px;
@@ -456,6 +459,7 @@ h2 {
   font-size: 16px;
   text-transform: none;
   width: fit-content;
+  margin: 0 16px 0 0;
 }
 
 @media (max-width: 620px) {
