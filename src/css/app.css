@@ -418,7 +418,7 @@ h2 {
   flex-direction: column;
 }
 .footer .footer-wrapper-header .footer-h2 ul .m-n {
-  margin: -2px 0 -4px 0;
+  margin: -4px 0 -4px 0;
 }
 .footer .footer-wrapper-header .footer-h2 .footer-link {
   color: #E0E0E0;
@@ -428,10 +428,10 @@ h2 {
   font-size: 16px;
   text-transform: none;
   width: fit-content;
-  margin: 1px 0 2px 0;
+  margin: 2px 0 2px 0;
 }
 .footer .footer-wrapper-header .footer-h2 .address {
-  margin: -3px 0 0 0;
+  margin: 2px 0 2px 0;
   color: #E0E0E0;
   font-weight: 400;
   line-height: 24px;
