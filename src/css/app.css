@@ -430,11 +430,7 @@ h2 {
   width: fit-content;
   margin: 2px 0 2px 0;
 }
-.footer .footer-wrapper-header .footer-h2 .contacts {
-  margin: -2px 0 -2px 0;
-}
 .footer .footer-wrapper-header .footer-h2 .address {
-  margin: 2px 0 2px 0;
   color: #E0E0E0;
   font-weight: 400;
   line-height: 24px;
@@ -444,11 +440,11 @@ h2 {
   width: 100%;
 }
 .footer .footer-wrapper-header .footer-h2 .contacts {
-  margin: -3px 0 -2px 0;
+  margin: -2px 0 -2px 0;
 }
 
 .footer-wrapper-footer {
-  padding: 2rem 0 2rem;
+  padding: 2.5rem 0 3rem;
   display: flex;
   margin-right: 16px;
 }

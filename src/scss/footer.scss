@@ -67,11 +67,9 @@
                 width: fit-content;
                 margin: 2px 0 2px 0;
             }  
-            .contacts {
-                margin: -2px 0 -2px 0;
-            }  
+
             .address {
-                margin: 2px 0 2px 0;
+                // margin: 2px 0 2px 0;
               
                 color: $color-gray;
                 font-weight: 400;
@@ -84,7 +82,7 @@
                 
             } 
             .contacts {
-                margin: -3px 0 -2px 0;
+                margin: -2px 0 -2px 0;
             } 
   
         }
@@ -94,7 +92,7 @@
     }
 
     .footer-wrapper-footer {
-        padding: 2rem 0 2rem;
+        padding: 2.5rem 0 3rem;
         display: flex;
         margin-right: 16px;
         .footer-link {
