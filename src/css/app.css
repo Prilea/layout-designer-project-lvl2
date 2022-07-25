@@ -402,7 +402,7 @@ h2 {
   height: 100%;
 }
 .footer .footer-wrapper-header .footer-h2 h2 {
-  margin: 13px 0 16px 0;
+  margin: 13px 0 18px 0;
   font-size: 18px;
   line-height: 27px;
   font-weight: 700;
@@ -443,9 +443,12 @@ h2 {
   text-transform: none;
   width: 100%;
 }
+.footer .footer-wrapper-header .footer-h2 .contacts {
+  margin: -3px 0 -2px 0;
+}
 
 .footer-wrapper-footer {
-  padding: 2.5rem 0 3rem;
+  padding: 2rem 0 2rem;
   display: flex;
   margin-right: 16px;
 }
@@ -457,9 +460,6 @@ h2 {
   font-size: 16px;
   text-transform: none;
   width: fit-content;
-}
-.footer-wrapper-footer .lh {
-  line-height: 18px;
 }
 
 @media (max-width: 620px) {
