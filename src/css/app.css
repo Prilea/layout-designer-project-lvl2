@@ -402,7 +402,7 @@ h2 {
   height: 100%;
 }
 .footer .footer-wrapper-header .footer-h2 .describe-socials .social-icon img {
-  margin: 2px 0 2px 0;
+  margin: 3px 0 3px 0;
 }
 .footer .footer-wrapper-header .footer-h2 h2 {
   margin: 13px 0 18px 0;
@@ -443,11 +443,11 @@ h2 {
   width: 100%;
 }
 .footer .footer-wrapper-header .footer-h2 .contacts {
-  margin: -2px 0 -2px 0;
+  margin: -2px 0 -1px 0;
 }
 
 .footer-wrapper-footer {
-  padding: 2.5rem 0 3rem;
+  padding: 40px 0 49px 0;
   display: flex;
   margin-right: 16px;
 }
