@@ -113,6 +113,11 @@
 
     }  
     @media (max-width: 620px) {
+        .footer-wrapper-header {
+            .footer-h2 {
+                margin-bottom: 21px;
+            }
+        }
         .footer-wrapper-footer {
             padding: 40px 0 47px 0;
             .footer-link {
