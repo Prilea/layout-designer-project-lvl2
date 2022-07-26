@@ -406,7 +406,7 @@ h2 {
   margin: 3px 0 1px 0;
 }
 .footer .footer-wrapper-header .footer-h2 h2 {
-  margin: 14px 0 15px 0;
+  margin: 14px 0 17px 0;
   font-size: 18px;
   line-height: 27px;
   font-weight: 700;
@@ -465,7 +465,7 @@ h2 {
 
 @media (max-width: 620px) {
   .footer-wrapper-footer {
-    padding: 2.5rem 0 3rem;
+    padding: 40px 0 47px 0;
   }
   .footer-wrapper-footer .footer-link {
     width: 100%;
