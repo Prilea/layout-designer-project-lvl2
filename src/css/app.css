@@ -441,7 +441,7 @@ h2 {
   width: 100%;
 }
 .footer .footer-wrapper-header .footer-h2 .contacts {
-  margin: -2px 0 0px 0;
+  margin: -2px 0 -1px 0;
 }
 
 .footer-wrapper-footer {
@@ -472,7 +472,7 @@ h2 {
     overflow: hidden;
   }
   .footer .footer-wrapper-header .describe {
-    padding-bottom: 8px;
+    padding-bottom: 10px;
   }
   .footer .footer-wrapper-footer {
     padding: 40px 0 47px 0;
