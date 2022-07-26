@@ -472,7 +472,7 @@ h2 {
     overflow: hidden;
   }
   .footer .footer-wrapper-header .describe {
-    margin-bottom: 5px;
+    padding-bottom: 10px;
   }
   .footer .footer-wrapper-footer {
     padding: 40px 0 47px 0;
