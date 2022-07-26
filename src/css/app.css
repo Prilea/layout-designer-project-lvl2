@@ -467,6 +467,13 @@ h2 {
   .footer .footer-wrapper-header ul .m-n {
     margin: -5px 0 -5px 0;
   }
+  .footer .footer-wrapper-header .footer-link {
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .footer .footer-wrapper-header .describe {
+    margin-bottom: 5px;
+  }
   .footer .footer-wrapper-footer {
     padding: 40px 0 47px 0;
   }
