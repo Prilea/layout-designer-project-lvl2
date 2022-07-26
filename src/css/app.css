@@ -393,6 +393,7 @@ h2 {
 }
 .footer .footer-wrapper-header .footer-h2 .describe-socials {
   display: flex;
+  margin: -2px 0 -1px 0;
 }
 .footer .footer-wrapper-header .footer-h2 .describe-socials .social-icon {
   display: inline-flex;
