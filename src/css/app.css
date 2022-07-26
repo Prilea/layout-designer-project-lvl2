@@ -461,14 +461,16 @@ h2 {
 }
 
 @media (max-width: 620px) {
-  .footer-wrapper-header .footer-h2 {
-    margin-bottom: 21px;
+  .footer .footer-wrapper-header .footer-h2 {
+    margin-bottom: 19px;
   }
-
-  .footer-wrapper-footer {
+  .footer .footer-wrapper-header ul .m-n {
+    margin: -5px 0 -5px 0;
+  }
+  .footer .footer-wrapper-footer {
     padding: 40px 0 47px 0;
   }
-  .footer-wrapper-footer .footer-link {
+  .footer .footer-wrapper-footer .footer-link {
     width: 100%;
     line-height: 24px;
   }

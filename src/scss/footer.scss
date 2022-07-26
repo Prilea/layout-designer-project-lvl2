@@ -113,9 +113,19 @@
 
     }  
     @media (max-width: 620px) {
+        .footer{
         .footer-wrapper-header {
             .footer-h2 {
-                margin-bottom: 21px;
+                margin-bottom: 19px;
+            }
+            ul {
+
+                li {
+                
+                }
+                .m-n {
+                    margin: -5px 0 -5px 0;
+                }
             }
         }
         .footer-wrapper-footer {
@@ -124,5 +134,6 @@
                 width: 100%;
                 line-height: 24px;
             }
-        }  
+        } 
+    } 
     }
