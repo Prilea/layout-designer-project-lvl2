@@ -471,6 +471,9 @@ h2 {
     box-sizing: border-box;
     overflow: hidden;
   }
+  .footer .footer-wrapper-header .address {
+    z-index: 1;
+  }
   .footer .footer-wrapper-header .describe {
     padding-bottom: 10px;
   }
