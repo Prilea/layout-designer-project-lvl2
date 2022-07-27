@@ -464,6 +464,9 @@ h2 {
   .footer .footer-wrapper-header .footer-h2 {
     margin-bottom: 19px;
   }
+  .footer .footer-wrapper-header .footer-h2 h2 {
+    margin: 14px 0 18px 0;
+  }
   .footer .footer-wrapper-header ul .m-n {
     margin: -5px 0 -5px 0;
   }
