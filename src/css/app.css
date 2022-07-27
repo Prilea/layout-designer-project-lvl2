@@ -473,6 +473,7 @@ h2 {
   .footer .footer-wrapper-header .footer-link {
     box-sizing: border-box;
     overflow: hidden;
+    margin: 2px 0 1px 0;
   }
   .footer .footer-wrapper-header .address {
     z-index: 1;
