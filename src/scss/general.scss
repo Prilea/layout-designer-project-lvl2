@@ -1,0 +1,106 @@
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/Roboto-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Roboto-Bold;
+  src: url("../fonts/Roboto-Bold.ttf");
+  font-weight: 700;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: $color-dark-gray;
+  font-size: 16px;
+  font-family: $font-roboto-400;
+  width: 100%;
+  line-height: 1.5;
+  background-color: $bg-color;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+h1 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 90px;
+  text-transform: uppercase;
+}
+
+h2 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 57px;
+  text-transform: uppercase;
+}
+
+.container {
+  max-width: 1240px;
+
+  // position: relative;
+  margin: 0 auto;
+
+  // padding: 0 20px;
+}
+
+.container-20 {
+  padding: 0 20px;
+}
+
+.mr-16 {
+  margin-right: 16px;
+}
+
+.mr-24 {
+  margin-right: 24px;
+}
+
+.btn {
+  text-transform: uppercase;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@mixin btn {
+  text-transform: uppercase;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.heading {
+  margin-bottom: 48px;
+  color: $color-white;
+  font-size: 38px;
+  font-family: Roboto-Bold, sans-serif;
+  line-height: 57px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@mixin heading {
+  margin-bottom: 48px;
+  color: $color-white;
+  font-size: 38px;
+  font-family: Roboto-Bold, sans-serif;
+  line-height: 57px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media (max-width: 620px) {
+  .heading {
+    margin-bottom: 48px !important;
+    font-size: 18px !important;
+    line-height: 27px !important;
+  }
+}

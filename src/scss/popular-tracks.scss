@@ -1,0 +1,88 @@
+// .artist-main {
+#page-popular-track {
+  .container {
+    //     .artist-heading {
+    //     grid-column: 1 / -1;
+    //     font-size: 38px;
+    //     color: #fff;
+    //     text-transform: uppercase;
+    //     font-weight: 700;
+    //     line-height: 57px;
+    //     margin-bottom: 48px;
+    //     // margin-top: 100px;
+    // }
+    .tracks-wrapper {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding-top: 100px;
+
+      .popular-track {
+        display: flex;
+        align-items: center;
+        max-width: 551px;
+        margin-right: 50px;
+        margin-bottom: 25px;
+
+        .track-img {
+          width: 55px;
+          height: 55px;
+          margin-right: 15px;
+        }
+
+        .track-info {
+          display: flex;
+          flex-grow: 1;
+          flex-direction: column;
+
+          .track-name {
+            width: fit-content;
+            margin: 0;
+            color: $color-white;
+            font-weight: 700;
+            font-size: 12.8px;
+            line-height: 19.2px;
+            text-transform: uppercase;
+          }
+
+          .track-author {
+            width: fit-content;
+            margin: 0;
+            color: #e0e0e0;
+            font-size: 12.8px;
+            line-height: 19.2px;
+          }
+        }
+
+        .track-time {
+          color: #e0e0e0;
+          font-size: 12.8px;
+          line-height: 19.2px;
+        }
+      }
+    }
+  }
+}
+
+// }
+
+@media (max-width: 600px) {
+  .artist-main {
+    .artist-heading {
+      font-size: 18px;
+      line-height: 27px;
+    }
+
+    #page-popular-track {
+      .container {
+        .tracks-wrapper {
+          grid-template-columns: 1fr;
+        }
+
+
+        .popular-track {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}

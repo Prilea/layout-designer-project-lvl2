@@ -1,0 +1,51 @@
+.artist-header {
+  background-image: url("../images/Morten Harket.png");
+  background-position: center;
+  background-size: cover;
+
+  #page-description {
+    padding: 200px 0;
+  }
+
+  .artist-main-heading {
+    margin-top: 50px;
+    // padding-top: 200px;
+    color: $color-white;
+  }
+
+  @media (max-width: 620px) {
+    .artist-main-heading {
+      margin-top: 28px;
+    }
+  }
+
+  .artist-fans-number {
+    margin: 16px 0 48px;
+  }
+
+  .artist-btn {
+    display: inline-flex;
+    align-items: center;
+    width: 200px;
+    margin-right: 1.5rem;
+    margin-bottom: 24px;
+    padding: 20px 30px;
+    color: $color-white;
+    font-size: 12.8px;
+    text-decoration: none;
+    border: none;
+
+    .svg-btn {
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  .artist-btn-mix {
+    background-color: #5328a1;
+  }
+
+  .artist-btn-favorite {
+    background-color: #95390c;
+  }
+}
