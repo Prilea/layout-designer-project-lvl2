@@ -372,7 +372,7 @@ h2 {
   }
   .header-absolute .navigation ul {
     flex-direction: column;
-    margin: 17px 0 10px;
+    margin: 17px 0 13px;
     line-height: 13px;
   }
   .header-absolute .navigation ul li {
@@ -674,13 +674,13 @@ h2 {
 }
 
 #page-app {
-  padding-top: 100px;
   margin-bottom: 100px;
+  padding-top: 100px;
 }
 #page-app .page-app-inner {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 #page-app .page-app-inner .page-app-inner-left {
   width: 50%;
@@ -698,16 +698,35 @@ h2 {
   width: 50%;
   text-align: center;
 }
-#page-app .page-app-inner .btn--orange {
-  border-radius: 32px;
-  background-color: #95390C;
+#page-app .page-app-inner .btn-orange {
   padding: 16px 40px;
-  border: none;
+  color: #fff;
   font-size: 12.8px;
   text-transform: none;
-  color: #fff;
+  background-color: #95390c;
+  border: none;
+  border-radius: 32px;
 }
 
+@media (max-width: 815px) {
+  #page-app .page-app-inner .page-app-inner-left {
+    width: 100%;
+  }
+  #page-app .page-app-inner .page-app-inner-right {
+    order: -1;
+    width: 100%;
+  }
+  #page-app .page-app-inner .btn-orange {
+    display: block;
+    margin-top: 16px;
+    padding: 16px 40px;
+    color: #fff;
+    text-transform: none;
+    background-color: #95390c;
+    border: none;
+    border-radius: 32px;
+  }
+}
 .artist-header {
   background-image: url("../images/Morten Harket.png");
   background-position: center;
