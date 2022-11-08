@@ -6,7 +6,7 @@
   .footer-wrapper-footer {
     display: flex;
     margin-right: 16px;
-    padding: 39px 0 49px;
+    padding: 40px 0 49px;
   
     .footer-link {
       width: fit-content;
@@ -105,7 +105,8 @@
       }
 
       .contacts {
-        margin: -2px 0 -1px;
+        // margin: -2px 0 -1px;
+        margin: 1px 0;
       }
     }
   }
