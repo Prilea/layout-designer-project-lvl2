@@ -375,7 +375,7 @@ h2 {
   }
   .header-absolute .navigation ul {
     flex-direction: column;
-    margin: 17px 0 13px;
+    margin: 17px 0 15px;
     line-height: 13px;
   }
   .header-absolute .navigation ul li {
