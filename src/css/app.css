@@ -324,7 +324,7 @@ h2 {
     z-index: 1;
   }
   .footer .footer-wrapper-header .contacts {
-    margin: 1px 0;
+    margin: -4px 0 -4px 0;
   }
   .footer .footer-wrapper-header .describe {
     margin-bottom: 21px;
