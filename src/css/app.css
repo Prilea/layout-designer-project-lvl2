@@ -449,21 +449,18 @@ h2 {
   background-image: url("../images/subscribe_1.png");
   justify-self: baseline;
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
 }
 #page-pricing .bg-general {
   background-image: url("../images/subscribe_2.png");
   justify-self: center;
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
 }
 #page-pricing .bg-premium {
   background-image: url("../images/subscribe_3.png");
   justify-self: end;
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
 }
 #page-pricing .pricing-item {
