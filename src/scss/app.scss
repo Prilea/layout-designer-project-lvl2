@@ -162,6 +162,13 @@
 }
 
 @media (max-width: 600px) {
+  .header {
+    .header-wrapper {
+
+    p {
+      margin: 13px 0;
+    }
+  }
   .container {
     .artist-heading {
 
@@ -169,7 +176,9 @@
       line-height: 27px;
     }
     
+  }  
   }
+
 
 }
 
@@ -273,6 +282,9 @@
     line-height: 27px;
     text-transform: uppercase;
   }
+  // p {
+  //   margin: 0;
+  // }
 }
 
 @import "pricing.scss";

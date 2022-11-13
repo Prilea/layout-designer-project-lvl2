@@ -347,7 +347,10 @@ h2 {
 }
 
 @media (max-width: 600px) {
-  .container .artist-heading {
+  .header .header-wrapper p {
+    margin: 13px 0;
+  }
+  .header .container .artist-heading {
     font-size: 18px;
     line-height: 27px;
   }
