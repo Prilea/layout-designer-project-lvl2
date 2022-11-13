@@ -205,7 +205,7 @@ h2 {
 .footer .footer-wrapper-footer {
   display: flex;
   margin-right: 16px;
-  padding: 2rem 0 2rem 0;
+  padding: 40px 0 50px;
 }
 .footer .footer-wrapper-footer .footer-link {
   width: fit-content;
