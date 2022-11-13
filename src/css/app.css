@@ -156,9 +156,6 @@ h2 {
 .header .header-wrapper h2 {
   margin-bottom: 31px;
 }
-.header .header-wrapper p {
-  margin: 15px 0;
-}
 .header .header-wrapper .form {
   display: flex;
   flex-wrap: wrap;
@@ -378,7 +375,7 @@ h2 {
   }
   .header-absolute .navigation ul {
     flex-direction: column;
-    margin: 17px 0 14px;
+    margin: 17px 0 13px;
     line-height: 13px;
   }
   .header-absolute .navigation ul li {
