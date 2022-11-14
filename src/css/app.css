@@ -451,6 +451,7 @@ h2 {
   background-repeat: no-repeat;
   background-position: inherit;
   background-size: cover;
+  height: 582px;
 }
 #page-pricing .bg-general {
   background-image: url("../images/subscribe_2.png");
@@ -458,6 +459,7 @@ h2 {
   background-repeat: no-repeat;
   background-position: inherit;
   background-size: cover;
+  height: 582px;
 }
 #page-pricing .bg-premium {
   background-image: url("../images/subscribe_3.png");
@@ -465,6 +467,7 @@ h2 {
   background-repeat: no-repeat;
   background-position: inherit;
   background-size: cover;
+  height: 582px;
 }
 #page-pricing .pricing-item {
   max-width: 368px;
