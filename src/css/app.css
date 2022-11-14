@@ -449,25 +449,22 @@ h2 {
   background-image: url("../images/subscribe_1.png");
   justify-self: baseline;
   background-repeat: no-repeat;
-  background-position: inherit;
+  background-position: 0 10px;
   background-size: cover;
-  height: 582px;
 }
 #page-pricing .bg-general {
   background-image: url("../images/subscribe_2.png");
   justify-self: center;
   background-repeat: no-repeat;
-  background-position: inherit;
+  background-position: 0 10px;
   background-size: cover;
-  height: 582px;
 }
 #page-pricing .bg-premium {
   background-image: url("../images/subscribe_3.png");
   justify-self: end;
   background-repeat: no-repeat;
-  background-position: inherit;
+  background-position: 0 10px;
   background-size: cover;
-  height: 582px;
 }
 #page-pricing .pricing-item {
   max-width: 368px;

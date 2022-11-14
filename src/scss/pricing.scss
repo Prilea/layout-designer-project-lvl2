@@ -18,9 +18,8 @@
 
     @mixin bg-price {
       background-repeat: no-repeat;
-      background-position: inherit;
+      background-position: 0 10px;
       background-size: cover;
-      height: 582px;
     }
 
     .bg-free {
