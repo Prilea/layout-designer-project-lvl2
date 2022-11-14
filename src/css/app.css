@@ -686,8 +686,8 @@ h2 {
   width: 50%;
   margin-top: 0;
 }
-#page-app .page-app-inner .page-app-inner-left .inner-left-text {
-  margin-top: 13px;
+#page-app .page-app-inner .page-app-inner-left .inner-left-text:not(:last-child) {
+  margin-top: 10px;
 }
 @media (max-width: 620px) {
   #page-app .page-app-inner .page-app-inner-left .inner-left-text {
