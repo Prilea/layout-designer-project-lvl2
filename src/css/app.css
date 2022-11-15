@@ -701,6 +701,9 @@ h2 {
   width: 50%;
   text-align: center;
 }
+#page-app .page-app-inner .page-app-inner-right img {
+  margin-bottom: -4px;
+}
 #page-app .page-app-inner .btn-orange {
   padding: 16px 40px;
   color: #fff;
