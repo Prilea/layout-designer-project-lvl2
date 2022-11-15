@@ -719,6 +719,7 @@ h2 {
   #page-app .page-app-inner .page-app-inner-right {
     order: -1;
     width: 100%;
+    height: auto;
   }
   #page-app .page-app-inner .btn-orange {
     display: block;
