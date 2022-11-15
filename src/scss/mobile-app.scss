@@ -1,5 +1,5 @@
 #page-app {
-  margin-bottom: 100px;
+  padding-bottom: 100px;
   padding-top: 100px;
 
   .page-app-inner {
@@ -27,8 +27,6 @@
     .page-app-inner-right {
       width: 50%;
       text-align: center;
-      position: relative;
-      left: 3px;
     }
 
     .btn-orange {

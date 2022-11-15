@@ -677,7 +677,7 @@ h2 {
 }
 
 #page-app {
-  margin-bottom: 100px;
+  padding-bottom: 100px;
   padding-top: 100px;
 }
 #page-app .page-app-inner {
@@ -700,8 +700,6 @@ h2 {
 #page-app .page-app-inner .page-app-inner-right {
   width: 50%;
   text-align: center;
-  position: relative;
-  left: 3px;
 }
 #page-app .page-app-inner .btn-orange {
   padding: 16px 40px;
