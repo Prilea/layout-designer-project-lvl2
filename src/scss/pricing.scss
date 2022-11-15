@@ -23,20 +23,20 @@
     }
 
     .bg-free {
-      background-image: url("../images/subscribe_1.png");
+      background-image: url("../images/Free Bg.png");
       justify-self: baseline;
       @include bg-price;
     }
 
     .bg-general {
-      background-image: url("../images/subscribe_2.png");
+      background-image: url("../images/Standart Bg.png");
       justify-self: center;
 
       @include bg-price;
     }
 
   .bg-premium {
-    background-image: url("../images/subscribe_3.png");
+    background-image: url("../images/Premium Bg.png");
     justify-self: end;
 
     @include bg-price;

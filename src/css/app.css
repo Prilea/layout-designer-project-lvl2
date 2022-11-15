@@ -446,21 +446,21 @@ h2 {
   justify-items: center;
 }
 #page-pricing .bg-free {
-  background-image: url("../images/subscribe_1.png");
+  background-image: url("../images/Free Bg.png");
   justify-self: baseline;
   background-repeat: no-repeat;
   background-position: inherit;
   background-size: cover;
 }
 #page-pricing .bg-general {
-  background-image: url("../images/subscribe_2.png");
+  background-image: url("../images/Standart Bg.png");
   justify-self: center;
   background-repeat: no-repeat;
   background-position: inherit;
   background-size: cover;
 }
 #page-pricing .bg-premium {
-  background-image: url("../images/subscribe_3.png");
+  background-image: url("../images/Premium Bg.png");
   justify-self: end;
   background-repeat: no-repeat;
   background-position: inherit;
