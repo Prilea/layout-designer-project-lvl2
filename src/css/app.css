@@ -504,7 +504,7 @@ h2 {
 }
 #page-pricing .pricing-item .pricing-value {
   position: relative;
-  margin-bottom: 40px;
+  margin: 0 0 40px 0;
   color: #fff;
   font-size: 64px;
   line-height: 1em;
@@ -564,7 +564,7 @@ h2 {
   }
 }
 #page-pricing .footer-text {
-  margin: 40px 0 0;
+  margin: 42px 0 0;
   color: #fff;
   line-height: 24px;
 }
