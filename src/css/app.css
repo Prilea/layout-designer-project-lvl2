@@ -449,7 +449,7 @@ h2 {
   background-image: url("../images/subscribe_1.png");
   justify-self: baseline;
   background-repeat: no-repeat;
-  background-position: inherit;
+  background-position: center;
   background-size: cover;
   width: 100%;
   height: 100%;
@@ -458,7 +458,7 @@ h2 {
   background-image: url("../images/subscribe_2.png");
   justify-self: center;
   background-repeat: no-repeat;
-  background-position: inherit;
+  background-position: center;
   background-size: cover;
   width: 100%;
   height: 100%;
@@ -467,7 +467,7 @@ h2 {
   background-image: url("../images/subscribe_3.png");
   justify-self: end;
   background-repeat: no-repeat;
-  background-position: inherit;
+  background-position: center;
   background-size: cover;
   width: 100%;
   height: 100%;
@@ -517,7 +517,7 @@ h2 {
   vertical-align: top;
 }
 #page-pricing .pricing-item .pricing-footer {
-  margin-bottom: 65px;
+  margin-bottom: 64px;
   color: #fff;
   font-size: 13px;
   line-height: 19px;
@@ -527,7 +527,7 @@ h2 {
     background-image: url("../images/Free Bg.png");
     justify-self: baseline;
     background-repeat: no-repeat;
-    background-position: inherit;
+    background-position: center;
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -536,7 +536,7 @@ h2 {
     background-image: url("../images/Standart Bg.png");
     justify-self: center;
     background-repeat: no-repeat;
-    background-position: inherit;
+    background-position: center;
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -545,7 +545,7 @@ h2 {
     background-image: url("../images/Premium Bg.png");
     justify-self: end;
     background-repeat: no-repeat;
-    background-position: inherit;
+    background-position: center;
     background-size: cover;
     width: 100%;
     height: 100%;
