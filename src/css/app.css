@@ -451,7 +451,8 @@ h2 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: 100%;
+  width: 374px;
+  max-width: 100%;
   height: 100%;
 }
 #page-pricing .bg-general {
@@ -460,7 +461,8 @@ h2 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: 100%;
+  width: 374px;
+  max-width: 100%;
   height: 100%;
 }
 #page-pricing .bg-premium {
@@ -469,7 +471,8 @@ h2 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: 100%;
+  width: 374px;
+  max-width: 100%;
   height: 100%;
 }
 #page-pricing .pricing-item {
@@ -529,7 +532,8 @@ h2 {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 100%;
+    width: 374px;
+    max-width: 100%;
     height: 100%;
   }
   #page-pricing .bg-general {
@@ -538,7 +542,8 @@ h2 {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 100%;
+    width: 374px;
+    max-width: 100%;
     height: 100%;
   }
   #page-pricing .bg-premium {
@@ -547,7 +552,8 @@ h2 {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 100%;
+    width: 374px;
+    max-width: 100%;
     height: 100%;
   }
   #page-pricing .pricing-item {
