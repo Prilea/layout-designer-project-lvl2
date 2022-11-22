@@ -92,8 +92,6 @@
 
       .address {
         width: 100%;
-        // margin: 2px 0 2px 0;
-
         color: $color-gray;
         font-weight: 400;
         font-size: 16px;
@@ -103,7 +101,6 @@
       }
 
       .contacts {
-        // margin: -2px 0 -1px;
         margin: 0;
       }
     }
@@ -131,20 +128,13 @@
 
     .footer-wrapper-header {
       .footer-h2 {
-        // margin-bottom: 20px;
         margin-bottom: 18px;
-
-        // margin-bottom: 19px;
         h2 {
           margin: 14px 0 18px;
-
-          // margin: 14px 0 18px 0;
         }
 
         ul {
           .m-n {
-            // margin: -4px 0 -5px;
-
             margin: -4px 0 -4px 0;
           }
 
@@ -161,14 +151,11 @@
       }
 
       .contacts {
-        // margin: 1px 0;
         margin: -4px 0 -4px 0;
       }
 
       .describe {
         margin-bottom: 21px;
-
-        // padding-bottom: 6px;
       }
     }
 

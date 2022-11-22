@@ -9,12 +9,14 @@
   .similar-item {
     margin-bottom: 25px;
     text-align: center;
+
     .similar-img {
       margin-bottom: 12px;
     }
     .similar-info {
       display: flex;
       flex-direction: column;
+
       .similar-name {
         margin: 0;
         color: $color-white;
@@ -29,15 +31,13 @@
         font-size: 16px;
         line-height: 24px;
       }
-
     }
-
   }
-
 }
 
 @media (max-width: 600px) {
   #page-similar {
+
     .container {
       grid-column-gap: 0;
       grid-template-columns: 1fr 1fr;
@@ -49,10 +49,7 @@
         width: 137px;
         height: 137px;
       }
-
     }
-
   }
-
 }
 
