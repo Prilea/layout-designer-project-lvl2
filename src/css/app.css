@@ -171,7 +171,7 @@ h2 {
   padding-left: 20px;
   color: #fff;
   font-size: 14px;
-  font-family: roboto-Bold, sans-serif;
+  font-family: roboto-bold, sans-serif;
   background-color: transparent;
   border: 2px solid #cacaca;
   border-radius: 3px;
@@ -310,7 +310,7 @@ h2 {
     margin: 14px 0 18px;
   }
   .footer .footer-wrapper-header .footer-h2 ul .m-n {
-    margin: -4px 0 -4px 0;
+    margin: -4px 0;
   }
   .footer .footer-wrapper-header .footer-h2 ul .footer-link {
     box-sizing: border-box;
@@ -321,7 +321,7 @@ h2 {
     z-index: 1;
   }
   .footer .footer-wrapper-header .contacts {
-    margin: -4px 0 -4px 0;
+    margin: -4px 0;
   }
   .footer .footer-wrapper-header .describe {
     margin-bottom: 21px;
@@ -507,7 +507,7 @@ h2 {
 }
 #page-pricing .pricing-item .pricing-value {
   position: relative;
-  margin: 0 0 40px 0;
+  margin: 0 0 40px;
   color: #fff;
   font-size: 64px;
   line-height: 1em;
