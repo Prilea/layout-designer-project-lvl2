@@ -6,6 +6,7 @@
     margin-bottom: 100px;
     padding-top: 100px;
   }
+
   .similar-item {
     margin-bottom: 25px;
     text-align: center;
@@ -13,6 +14,7 @@
     .similar-img {
       margin-bottom: 12px;
     }
+
     .similar-info {
       display: flex;
       flex-direction: column;
@@ -25,6 +27,7 @@
         line-height: 27px;
         text-transform: capitalize;
       }
+
       .similar-name-fans {
         margin: 0;
         font-weight: 400;
@@ -37,11 +40,11 @@
 
 @media (max-width: 600px) {
   #page-similar {
-
     .container {
       grid-column-gap: 0;
       grid-template-columns: 1fr 1fr;
     }
+
     .similar-item {
       margin-right: 50px;
 
@@ -52,4 +55,3 @@
     }
   }
 }
-
